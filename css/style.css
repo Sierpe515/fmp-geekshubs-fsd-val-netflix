@@ -1,0 +1,102 @@
+body {
+    background-color: blue;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(157, 156, 156);
+}
+
+.container {
+    background-color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr 1fr 2fr 1fr 2fr 1fr;
+    gap: 5px;
+}
+
+.box {
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.box1 {
+    grid-column: 1 / 6;
+    display: flex;
+    justify-content: left;
+    gap: 2vw;
+    position: sticky;
+}
+
+.netflixlogo {
+    height: 70px;
+}
+
+.box2 {
+    grid-column: 6 / 7;
+    display: flex;
+    justify-content: right;
+    position: sticky;
+}
+
+#searchicon {
+    height: 25px;
+    margin-right: 0.5vw;
+}
+
+#bellicon {
+    height: 25px;
+    margin-right: 0.5vw;
+}
+
+#loginicon {
+    height: 30px;
+    border-radius: 10%;
+    margin-right: -1vw;
+}
+
+#arrowicon {
+    height: 20px;
+    margin-right: 1vw;
+}
+
+#arrowicon:hover {
+    transform: rotate(180deg);
+}
+
+.box3 {
+    grid-column: 1 / 7;
+}
+
+.screens {
+    width: 100%;
+}
+
+.box4:hover {
+    transform: scale(1.5);
+    box-shadow: white 1px 0px 10px 1px;
+}
+
+.box10 {
+    grid-column: 1 / 7;
+}
+
+.box17 {
+    grid-column: 1 / 7;
+}
+
+.box24 {
+    grid-column: 1 / 7;
+}
