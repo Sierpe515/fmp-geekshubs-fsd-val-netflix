@@ -1,5 +1,5 @@
 body {
-    background-color: blue;
+    background-color: black;
 }
 
 a {
@@ -23,7 +23,7 @@ a:hover {
 }
 
 .box {
-    background-color: yellowgreen;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,9 +82,10 @@ a:hover {
 
 .screens {
     width: 100%;
+    height: 100%;
 }
 
-.box4:hover {
+.screens:hover {
     transform: scale(1.5);
     box-shadow: white 1px 0px 10px 1px;
 }
